@@ -82,6 +82,7 @@ Time Complexity:
 O(1). The code executes a fixed sequence of mathematical operations and conditional checks.
 
 Question-5
+
 Approach
 
 • ​use prompt() to take the target sum N and the seed.
