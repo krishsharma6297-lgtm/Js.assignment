@@ -77,3 +77,6 @@ Approach
 
 • ​Rounding: Finally, round the total up to the nearest multiple of 5.
 
+Time Complexity: 
+
+O(1). The code executes a fixed sequence of mathematical operations and conditional checks.
