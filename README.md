@@ -1,7 +1,7 @@
 # Js.assignment
 question 1
-Approach
 
+Approach
 • ​Input the values for L, R, and K using prompt().
 • ​Iterate through every integer x where L <=x < R.
 
