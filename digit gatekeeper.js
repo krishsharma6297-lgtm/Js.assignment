@@ -13,6 +13,7 @@ let K = parseInt(prompt("Enter K:"));
 let count = 0;
 
 
+
 for (let x = L; x < R; x++) {
     
   
