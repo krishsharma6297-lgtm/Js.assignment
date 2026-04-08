@@ -14,7 +14,9 @@ Time Complexity
 O((R - L)* d), where d is the number of digits in R. We iterate through the range once, and for each number, we process its digits.
 
 Question-2
+
 Approach
+
 • use prompt() to take the initial number N and the student's seed.
 • ​We perform a loop exactly 3 times. 
 • ​If the current number is even, it is updated using the formula: (current/2)+seed.
