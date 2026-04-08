@@ -99,3 +99,7 @@ Approach
 
 • ​ We display both the value of m and the final currentSum using alert().
 
+Time Complexity:
+
+ O(sqrt(N)). The sum of the first m integers is roughly m^2/2. Since we are looking for a sum that reaches N, m will grow relative to the square root of N. 
+
