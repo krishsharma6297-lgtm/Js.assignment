@@ -80,3 +80,21 @@ Approach
 Time Complexity: 
 
 O(1). The code executes a fixed sequence of mathematical operations and conditional checks.
+
+Question-5
+Approach
+
+• ​use prompt() to take the target sum N and the seed.
+
+• ​We start from m = 1 and keep track of a running currentSum.
+
+• ​In each iteration, we check if the current number m is divisible by (seed + 2). 
+
+• ​If it is not divisible, we add m to our currentSum.
+
+• ​If it is divisible, we skip it.
+
+•  The loop stops as soon as currentSum is greater than or equal to N.
+
+• ​ We display both the value of m and the final currentSum using alert().
+
