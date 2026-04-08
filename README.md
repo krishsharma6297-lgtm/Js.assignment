@@ -36,3 +36,7 @@ Approach
 • ​Extract the middle digit of the 3-digit number and check if it equals the seed.
 
 • ​In output Display "YES" or "NO" along with the final value using alert().
+
+Time Complexity: 
+
+O(1). The loop runs for a fixed number of iterations (exactly 3)
