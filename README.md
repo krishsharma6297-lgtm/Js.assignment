@@ -17,7 +17,9 @@ Approach
 
 
 Time Complexity
+
 O((R - L)* d), where d is the number of digits in R. We iterate through the range once, and for each number, we process its digits.
+
 
 Question-2
 
@@ -40,3 +42,20 @@ Approach
 Time Complexity: 
 
 O(1). The loop runs for a fixed number of iterations (exactly 3)
+
+
+Question-3
+
+Approach
+
+• ​ We use prompt() to take the initial integer N and the divisor K.
+
+• ​ Since the constraints specify 0 \le X \le 10000, we run a loop from 0 to 10000 to find the smallest value for X.
+
+• ​For each X, we calculate the target number: target = N + X.
+
+• ​ We convert the target number to a string, reverse it, and check if it matches the original string.
+
+• ​ We check if the target number is divisible by K (i target % K === 0).
+
+•  If both conditions are met, we alert() the value of X and exit. If the loop finishes without finding a match, we print -1.
