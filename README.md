@@ -61,3 +61,19 @@ Approach
 •  If both conditions are met, we alert() the value of X and exit. If the loop finishes without finding a match, we print -1.
 
 Time Complexity: O(M*D), where M is the maximum range of X (10,001) and D is the number of digits in N+X. 
+
+Question-4
+
+
+Approach
+
+• ​Initial Calculation: Start with a base fare and add 7*distance.
+
+• ​Lateness Penalty: If minutesLate is greater than 15, add 20 to the total.
+
+• ​Distance Surcharge: If distance is greater than 10, calculate 10\% of the current fare and add it to the total.
+
+• ​Seed Adjustment: If the seed is odd, subtract its value; otherwise, add its value.
+
+• ​Rounding: Finally, round the total up to the nearest multiple of 5.
+
