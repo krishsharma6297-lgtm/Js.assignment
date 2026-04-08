@@ -103,3 +103,22 @@ Time Complexity:
 
  O(sqrt(N)). The sum of the first m integers is roughly m^2/2. Since we are looking for a sum that reaches N, m will grow relative to the square root of N. 
 
+Question-5 
+
+Approach
+
+• ​use prompt() to take the number of correct (a), partially correct (b), and wrong (c) answers.
+
+• ​The base score is calculated using the formula: score = 3a + b - 2c.
+
+• ​If the calculated score is negative, it is reset to 0.
+
+• ​ If the total number of answers submitted (a + b + c) is greater than 50, we subtract 10 points from the score.
+
+• ​If the final score is 60 or higher, the status is PASS.
+
+• ​Otherwise, the status is FAIL. 
+
+• ​ Display the final score and the PASS/FAIL status using alert()
+
+
