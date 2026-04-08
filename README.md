@@ -59,3 +59,5 @@ Approach
 • ​ We check if the target number is divisible by K (i target % K === 0).
 
 •  If both conditions are met, we alert() the value of X and exit. If the loop finishes without finding a match, we print -1.
+
+Time Complexity: O(M*D), where M is the maximum range of X (10,001) and D is the number of digits in N+X. 
