@@ -119,6 +119,10 @@ Approach
 
 • ​Otherwise, the status is FAIL. 
 
-• ​ Display the final score and the PASS/FAIL status using alert()
+• ​ Display the final score and the PASS/FAIL status using alert().
+
+Time Complexity: 
+
+O(1). The script performs a fixed set of arithmetic operations and comparisons regardless of the input values.
 
 
